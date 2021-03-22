@@ -1,3 +1,7 @@
+body {
+    line-height: 1.6rem;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -13,7 +17,7 @@ h3 {
 }
 
 p {
-    text-indent: 2rem;
+    text-indent: 1rem;
 }
 
 footer>p {
@@ -42,4 +46,28 @@ main {
 .return-summary {
     text-align: right;
     display: block;
+}
+
+h2 + p::first-line {
+    font-variant-caps: small-caps;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p:lang(fr)::before,
+p:lang(la)::before {
+    content: "français";
+    font-variant-caps: small-caps;
+    color: #5c9caf;
+    font-weight: bold;
+    font-size: 0.75rem;
+    float: left;
+    margin-left: -2rem;
+    display: block;
+}
+
+p:lang(la)::before {
+    content: "latin";
 }
