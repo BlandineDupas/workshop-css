@@ -1,0 +1,41 @@
+.menu {
+    background-color: white;
+    padding: 2rem;
+}
+
+body {
+    background-color: #efecca;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #c03000;
+}
+
+h2 {
+    color: #4bb5c1;
+}
+
+nav:not(.menu) ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav:not(.menu) a {
+    background-color: #c03000;
+    border: 2px solid #660000;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav:not(.menu) a:hover {
+    background-color: #009900;
+}
+
+footer a {
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+}
