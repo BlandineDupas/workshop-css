@@ -46,3 +46,17 @@
     grid-column: 3 / 7;
     grid-row: 5;
 }
+
+/* TABLEAU */
+table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    border: 1px solid black;
+}
