@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exercise9.css">
+    <title>Exercice 9</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="exercise1.html"><li>Exercices 1, 4 et 7</li></a>
+                <a href="exercise2.html"><li>Exercice 2</li></a>
+                <a href="exercise3.html"><li>Exercice 3</li></a>
+                <a href="exercise5.html"><li>Exercice 5</li></a>
+                <a href="exercise6.html"><li>Exercice 6</li></a>
+                <a href="exercise8.html"><li>Exercice 8</li></a>
+                <a href="exercise9.html"><li>Exercice 9</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Suite de Fibonnacci</h1>
+        <p>En mathématiques, la suite de Fibonacci est une suite d'entiers dans laquelle chaque terme est la somme des deux termes qui le précèdent.</p>
+        <form action="" id="fibonnacci-form">
+            <fieldset>
+                <legend>Afficher la suite de Fibonnacci</legend>
+
+                <label for="nbElements">Combien de valeurs souhaitez-vous afficher ?
+                    <input type="number" id="nbElements">
+                </label>
+                <button type="submit">Calculer !</button>
+
+                <fieldset class="result">
+                    <legend>Résultat :</legend>
+                    <div>
+                        <p>Vous n'avez pas encore lancé le calcul...</p>
+                        <table class="d-none">
+                            <thead>
+                                <tr>
+                                    <th>n</th>
+                                    <th>F(n)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="result">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </fieldset>
+
+            </fieldset>
+        </form>
+    </main>
+    <script type="text/javascript" src="js/exercise9.js"></script>
+</body>
+</html>

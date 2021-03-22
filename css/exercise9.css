@@ -1,0 +1,31 @@
+legend {
+    font-weight: bold;
+    font-variant-caps: small-caps;
+    font-size: 1.25rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(233, 233, 233);
+}
+
+tr:nth-child(even),
+thead tr:nth-child(odd) {
+    background-color: rgb(185, 185, 185);
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+}
+
+.d-none {
+    display: none;
+}
