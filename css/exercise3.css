@@ -1,0 +1,23 @@
+ol {
+    list-style-type: lower-greek;
+}
+
+dl {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-variant-caps: small-caps;
+}
+
+dl:first-of-type {
+    margin-top: 1rem;
+}
+
+dd {
+    font-style: italic;
+}
+
+dd:last-of-type {
+    margin-bottom: 1rem;
+}
