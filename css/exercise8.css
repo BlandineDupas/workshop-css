@@ -1,0 +1,24 @@
+form {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+fieldset:not(:last-of-type) label,
+fieldset:not(:last-of-type) input {
+    display: block;
+}
+
+fieldset:not(:last-of-type) input,
+fieldset:not(:last-of-type) select {
+    margin-left: 0.2rem;
+}
+
+fieldset {
+    margin: 0.5rem 0;
+}
+
+p {
+    margin: 0.2rem 0;
+}

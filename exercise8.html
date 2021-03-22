@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exercise8.css">
+    <title>Workshop-css</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="exercise1.html"><li>Exercices 1, 4 et 7</li></a>
+                <a href="exercise2.html"><li>Exercice 2</li></a>
+                <a href="exercise3.html"><li>Exercice 3</li></a>
+                <a href="exercise5.html"><li>Exercice 5</li></a>
+                <a href="exercise6.html"><li>Exercice 6</li></a>
+                <a href="exercise8.html"><li>Exercice 8</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <h1>Informations personnelles</h1>
+            <fieldset>
+                <legend>Etat civil</legend>
+                <label for="civility">
+                    <select name="civility" id="civility">
+                        <option value="Mr">M.</option>
+                        <option value="Mrs">Mme.</option>
+                        <option value="Miss">Mlle.</option>
+                    </select>
+                </label>
+
+                <label for="lastname">Nom
+                    <input type="text" name="lastname" id="lastname">
+                </label>
+
+                <label for="firstname">Prénom
+                    <input type="text" name="firstname" id="firstname">
+                </label>
+
+                <label for="dateOfBirth">Date de naissance
+                    <input type="date" name="dateOfBirth" id="dateOfBirth">
+                </label>
+
+                <label for="placeOfBirth">Commune de naissance
+                    <input type="text" name="placeOfBirth" id="placeOfBirth">
+                    <select name="district" id="district">
+                        <option value="44">44 - Loire-Atlantique</option>
+                        <option value="56">56 - Vendée</option>
+                        <option value="31">31 - Haute-Garonne</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Coordonnées</legend>
+
+                <label for="tel">Téléphone
+                    <input type="tel" name="tel" id="teltel">
+                </label>
+
+                <label for="email">Courriel
+                    <input type="email" name="email" id="email">
+                </label>
+
+                <label for="website">Site web
+                    <input type="text" name="website" id="website">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Compétences</legend>
+                
+               <p>
+                    Niveau d'anglais :
+                    <label for="C1">C1
+                        <input type="radio" name="english" id="C1" value="C1">
+                    </label>
+                    <label for="B1">B1
+                        <input type="radio" name="english" id="B1" value="B1">
+                    </label>
+                    <label for="A1">A1
+                        <input type="radio" name="english" id="A1" value="A1">
+                    </label>
+               </p>
+
+                <p>
+                    Langages informatiques :
+                    <label for="HTML">HTML
+                        <input type="radio" name="languages" id="HTML" value="HTML">
+                    </label>
+                    <label for="CSS">CSS
+                        <input type="radio" name="languages" id="CSS" value="CSS">
+                    </label>
+                    <label for="Javascript">Javascript
+                        <input type="radio" name="languages" id="Javascript" value="Javascript">
+                    </label>
+                    <label for="PHP">PHP
+                        <input type="radio" name="languages" id="PHP" value="PHP">
+                    </label>
+                </p>
+                
+            </fieldset>
+
+            <button type="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+        </form>
+    </main>
+</body>
+</html>
