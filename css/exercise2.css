@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6rem;
+}
+
+main {
+    margin: auto;
+    max-width: 80%;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
+    margin: 0 4rem;
+    text-align: center;
+}
+
+.articleDatas {
+    text-align: right;
+    max-width: 50%;
+    margin-left: auto;
+    color: #575757;
+}
+
+.reference {
+    text-align: right;
+    max-width: 50%;
+    margin-left: auto;
+}
+
+.reference-type {
+    font-weight: bold;
+    color: #caa659;
+}
+
+.reference a {
+    color: #7e7edd;
+}
+
+.reference a:hover {
+    font-style: italic;
+}
+
+q {
+   font-style: italic;
+}
+
+q .citation-modification {
+    font-style: normal;
+}
+
+q:before,
+q:after {
+    content: "";
+}
