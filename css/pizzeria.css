@@ -30,7 +30,9 @@ nav:not(.menu) a {
     text-decoration: none;
 }
 
-nav:not(.menu) a:hover {
+nav:not(.menu) a:hover,
+nav:not(.menu) a:active,
+nav:not(.menu) a:focus {
     background-color: #009900;
 }
 
