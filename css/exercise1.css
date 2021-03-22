@@ -19,3 +19,27 @@ p {
 footer>p {
     font-weight: bold;
 }
+
+main {
+    margin: auto;
+    max-width: 95%;
+}
+
+.summary-title {
+    font-variant-caps: small-caps;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+#summary a {
+    text-decoration: none;
+}
+
+#summary a:hover {
+    text-decoration: underline;
+}
+
+.return-summary {
+    text-align: right;
+    display: block;
+}
